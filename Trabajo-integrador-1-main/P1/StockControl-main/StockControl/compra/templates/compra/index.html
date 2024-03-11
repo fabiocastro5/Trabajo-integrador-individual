@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stock Control</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        
+        h1 {
+            color: #333;
+        }
+        
+        button {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bienvenido a Stock Control</h1>
+    
+    <button onclick="window.location.href = 'http://localhost:8000/home/listado_productos';">Listado de Productos</button>
+    <button onclick="window.location.href = 'http://localhost:8000/home/listado_proveedores';">Listado de Proveedores</button>
+    <button onclick="window.location.href = 'http://localhost:8000/home/nuevo_producto';">Nuevo Producto</button>
+    <button onclick="window.location.href = 'http://localhost:8000/home/nuevo_proveedor';">Nuevo Proveedor</button>
+</body>
+</html>
